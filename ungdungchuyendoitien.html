@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th><b>Amount</b></th>
+        <th><b>From Currency</b></th>
+        <th><b>To Currency</b></th>
+    </tr>
+    <tr>
+        <td>
+        <input type="text" name="number" id="number">
+        </td>
+        <td>
+            <select name="nuoc">
+                <option value="nuoc" id="datnuoc">VietNam</option>
+            </select>
+        </td>
+        <td>
+            <select name="nuoc">
+                <option value="nuoc" id="nuoc">USA</option>
+            </select>
+        </td>
+        <td><input type="button" value="Convert" onclick="getconvert()">
+        </td>
+    </tr>
+</table>
+    <p id="result" style="color: blue"></p>
+</body>
+</html>
